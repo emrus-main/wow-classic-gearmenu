@@ -68,10 +68,25 @@ local gearSlots = {
     ["textureId"] = 136526,
     ["slotId"] = INVSLOT_SHOULDER
   }, {
+    ["name"] = "slot_name_back",
+    ["type"] = {"INVTYPE_CLOAK"},
+    ["textureId"] = 136512,
+    ["slotId"] = INVSLOT_BACK
+  }, {
     ["name"] = "slot_name_chest",
     ["type"] = {"INVTYPE_CHEST", "INVTYPE_ROBE"},
     ["textureId"] = 136512,
     ["slotId"] = INVSLOT_CHEST
+  }, {
+    ["name"] = "slot_name_wrist",
+    ["type"] = {"INVTYPE_WRIST"},
+    ["textureId"] = 136530,
+    ["slotId"] = INVSLOT_WRIST
+  }, {
+    ["name"] = "slot_name_hands",
+    ["type"] = {"INVTYPE_HAND"},
+    ["textureId"] = 136515,
+    ["slotId"] = INVSLOT_HAND
   }, {
     ["name"] = "slot_name_waist",
     ["type"] = {"INVTYPE_WAIST"},
@@ -87,16 +102,6 @@ local gearSlots = {
     ["type"] = {"INVTYPE_FEET"},
     ["textureId"] = 136513,
     ["slotId"] = INVSLOT_FEET
-  }, {
-    ["name"] = "slot_name_wrist",
-    ["type"] = {"INVTYPE_WRIST"},
-    ["textureId"] = 136530,
-    ["slotId"] = INVSLOT_WRIST
-  }, {
-    ["name"] = "slot_name_hands",
-    ["type"] = {"INVTYPE_HAND"},
-    ["textureId"] = 136515,
-    ["slotId"] = INVSLOT_HAND
   }, {
     ["name"] = "slot_name_upper_finger",
     ["simplifiedName"] = "slot_name_finger",
@@ -121,11 +126,6 @@ local gearSlots = {
     ["type"] = {"INVTYPE_TRINKET"},
     ["textureId"] = 136528,
     ["slotId"] = INVSLOT_TRINKET2
-  }, {
-    ["name"] = "slot_name_back",
-    ["type"] = {"INVTYPE_CLOAK"},
-    ["textureId"] = 136512,
-    ["slotId"] = INVSLOT_BACK
   }, {
     ["name"] = "slot_name_main_hand",
     ["type"] = {"INVTYPE_WEAPONMAINHAND", "INVTYPE_2HWEAPON", "INVTYPE_WEAPON"},

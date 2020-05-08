@@ -16,4 +16,5 @@
   <Binding name="CLICK GM_GearBarSlot_15:LeftButton" description="Use Slot15" />
   <Binding name="CLICK GM_GearBarSlot_16:LeftButton" description="Use Slot16" />
   <Binding name="CLICK GM_GearBarSlot_17:LeftButton" description="Use Slot17" />
+  <Binding name="CLICK GM_GearBarSlot_18:LeftButton" description="Use Slot18" />
 </Bindings>

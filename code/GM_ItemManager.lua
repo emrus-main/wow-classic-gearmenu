@@ -186,7 +186,11 @@ function me.SwitchItems(itemId, slotId)
         mod.combatQueue.RemoveFromQueue(slotId)
 
         return -- abort
+      else
+        mod.logger.LogDebug(me.tag, "Item is locked")
+        return
       end
+    
     end
 
     --[[

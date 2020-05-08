@@ -101,7 +101,8 @@ GearMenuConfiguration = {
     [14] = RGGM_CONSTANTS.INVSLOT_NONE,
     [15] = INVSLOT_MAINHAND,
     [16] = INVSLOT_OFFHAND,
-    [17] = RGGM_CONSTANTS.INVSLOT_NONE
+    [17] = RGGM_CONSTANTS.INVSLOT_NONE,
+    [18] = RGGM_CONSTANTS.INVSLOT_NONE
   },
   --[[
     example
@@ -204,7 +205,8 @@ function me.SetupConfiguration()
       [14] = RGGM_CONSTANTS.INVSLOT_NONE,
       [15] = INVSLOT_MAINHAND,
       [16] = INVSLOT_OFFHAND,
-      [17] = RGGM_CONSTANTS.INVSLOT_NONE
+      [17] = RGGM_CONSTANTS.INVSLOT_NONE,
+      [18] = RGGM_CONSTANTS.INVSLOT_NONE
     }
   end
 

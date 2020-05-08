@@ -68,6 +68,7 @@ if (GetLocale() == "deDE") then
   rggm.L["titleslot_15"] = "Slot 15:"
   rggm.L["titleslot_16"] = "Slot 16:"
   rggm.L["titleslot_17"] = "Slot 17:"
+  rggm.L["titleslot_18"] = "Slot 18:"
 
   -- quickchange
   rggm.L["quick_change_category_name"] = "Schnellwechsel"

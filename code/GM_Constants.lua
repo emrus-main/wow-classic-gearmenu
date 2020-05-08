@@ -47,6 +47,7 @@ _G["BINDING_NAME_CLICK GM_GearBarSlot_14:LeftButton"] = "Slot 14"
 _G["BINDING_NAME_CLICK GM_GearBarSlot_15:LeftButton"] = "Slot 15"
 _G["BINDING_NAME_CLICK GM_GearBarSlot_16:LeftButton"] = "Slot 16"
 _G["BINDING_NAME_CLICK GM_GearBarSlot_17:LeftButton"] = "Slot 17"
+_G["BINDING_NAME_CLICK GM_GearBarSlot_18:LeftButton"] = "Slot 18"
 
 RGGM_CONSTANTS = {
   ADDON_NAME = "GearMenu",
@@ -99,7 +100,7 @@ RGGM_CONSTANTS = {
   GEAR_BAR_SLOT_Y = 0,
   ELEMENT_GEAR_BAR_SLOT_ICON_TEXTURE_NAME = "$parent_Icon",
   ELEMENT_GEAR_BAR_SLOT_COOLDOWN_FRAME = "$parent_Cooldown",
-  GEAR_BAR_SLOT_AMOUNT = 17,
+  GEAR_BAR_SLOT_AMOUNT = 18,
   --[[
     ChangeMenu
   ]]--
@@ -188,7 +189,7 @@ RGGM_CONSTANTS = {
   QUICK_CHANGE_DELAY_SLIDER_HEIGHT = 20,
   -- delay between 0 and 120 seconds
   QUICK_CHANGE_DELAY_SLIDER_MIN = 0,
-  QUICK_CHANGE_DELAY_SLIDER_MAX = 120,
+  QUICK_CHANGE_DELAY_SLIDER_MAX = 600,
   QUICK_CHANGE_DELAY_SLIDER_STEP = 1, -- 1 second per step
 
   QUICK_CHANGE_SIDE_FROM = "from",

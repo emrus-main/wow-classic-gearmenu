@@ -64,7 +64,7 @@ function me.BuildGearBar()
   gearBarFrame:SetPoint("CENTER", 0, 0)
   gearBarFrame:SetMovable(true)
   gearBarFrame:SetClampedToScreen(true)
-
+  
   mod.uiHelper.LoadFramePosition(gearBarFrame, RGGM_CONSTANTS.ELEMENT_GEAR_BAR_FRAME)
   me.SetupDragFrame(gearBarFrame)
 
@@ -302,7 +302,7 @@ function me.UpdateGearBar()
     gearSlot.cooldownOverlay:GetRegions()
       :SetFont(
         STANDARD_TEXT_FONT,
-        mod.configuration.GetSlotSize() * RGGM_CONSTANTS.GEAR_BAR_CHANGE_COOLDOWN_TEXT_MODIFIER
+        mod.configuration.GetSlotSize() * RGGM_CONSTANTS.GEAR_BAR_CHANGE_COOLDOWN_TEXT_MODIFIER, "OUTLINE"
       )
 
     me.SetKeyBindingFont(gearSlot.keyBindingText)

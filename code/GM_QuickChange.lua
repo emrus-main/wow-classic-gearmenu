@@ -42,18 +42,18 @@ me.tag = "QuickChange"
     time to wait before changing an item
 ]]--
 function me.AddQuickChangeRule(changeFromItemId, changeToItemId, delay)
-  if changeFromItemId == changeToItemId then
-    mod.logger.PrintUserError(rggm.L["quick_change_invalid_rule"])
-    return
-  end
+  --if changeFromItemId == changeToItemId then
+  --  mod.logger.PrintUserError(rggm.L["quick_change_invalid_rule"])
+  --  return
+  --end
 
   -- prevent adding duplicate rules
-  for _, quickChangeRule in ipairs(mod.configuration.GetQuickChangeRules()) do
-    if quickChangeRule.changeFromItemId == changeFromItemId then
-      mod.logger.PrintUserError(rggm.L["quick_change_unable_to_add_rule_duplicate"])
-      return
-    end
-  end
+  --for _, quickChangeRule in ipairs(mod.configuration.GetQuickChangeRules()) do
+  --  if quickChangeRule.changeFromItemId == changeFromItemId then
+  --    mod.logger.PrintUserError(rggm.L["quick_change_unable_to_add_rule_duplicate"])
+  --    return
+  --  end
+  --end
 
   local changeFromName, _, itemFromQuality, _, _, _, _, _, equipFromSlot, itemFromTexture =
     GetItemInfo(changeFromItemId)

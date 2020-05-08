@@ -59,6 +59,10 @@ function GM_AddToCombatQueue(itemId, slotId)
   end
 end
 
+function GM_ACQ(itemId, slotId)
+  GM_AddToCombatQueue(itemId, slotId)
+end
+
 --[[
   Global macrobridge for clearing a certain slot
 

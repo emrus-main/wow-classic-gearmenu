@@ -2,7 +2,7 @@
 ## Title: GearMenu
 ## Author: Michael Wiesendanger <michael.wiesendanger@gmail.com>
 ## Notes: Addon to manage and keybind usable gear
-## Version: v1.3.0
+## Version: v1.3.1
 ## SavedVariablesPerCharacter: GearMenuConfiguration
 ## X-Category: Action Bars Combat PvP
 ## X-Curse-Project-ID: 345496
